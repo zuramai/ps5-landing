@@ -1,0 +1,16 @@
+header {
+    .navbar {
+        position: absolute;
+        width: 100%;
+        .navbar-brand {
+            margin-right: 2rem;
+        }
+        &.navbar-transparent {
+            .nav-link {
+                color: #fff;
+                font-size: 1.2em;
+                padding: 0 1rem
+            }
+        }
+    }
+}
